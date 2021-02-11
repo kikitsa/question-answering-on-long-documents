@@ -26,4 +26,4 @@ Due to some confidentiality concerns I am not able to share the data set (traini
 I provide a Google Colab Notebook and for reproducing the results you need:
 1. Turn on the GPU by navigating to Edit→Notebook Settings and selecting GPU from the Hardware Accelerator drop-down
 2. You should provide the model with your own data set. There is code cell which indicates to add your own data set.
-3. Run all the cells
+3. Run all the cells of the question-answering-on-long-doc.ipynb file.
