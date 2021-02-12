@@ -1,7 +1,7 @@
 # Question Answering
 
 ### Problem description
-It is about a question answering task on long greek documents. The length of each document is between 12000 - 22000 characters as the EDA shows.
+It is about a question answering task on long greek documents. The length of each document is between 12000 - 22000 characters as the EDA (Exploratory Data Analysis) shows, under the ```question-answering-on-long-doc.ipynb``` file.
 
 ### Approach
 The providing solution is based on [BERT](https://github.com/google-research/bert) and [Transformers](https://github.com/huggingface/transformers). As pretrained model I used the [nlpaueb/bert-base-greek-uncased-v1](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) and for the implementation of the TFBertForQuestionAnswering model I followed the instructions under the official documentation of Transformers page. I fine-tuned the model on a GPU with the following parameters:
@@ -26,4 +26,4 @@ Due to some confidentiality concerns I am not able to share the data set (traini
 I provide a Google Colab Notebook and for reproducing the results you need:
 1. Turn on the GPU by navigating to Edit→Notebook Settings and selecting GPU from the Hardware Accelerator drop-down
 2. You should provide the model with your own data set. There is a code cell which indicates to add your own data set.
-3. Run all the cells of the question-answering-on-long-doc.ipynb file.
+3. Run all the cells of the ```question-answering-on-long-doc.ipynb``` file.
